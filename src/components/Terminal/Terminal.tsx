@@ -1,8 +1,9 @@
+import { isPropertySignature } from 'typescript';
 import Prompt from './Prompt.tsx';
 
-function Terminal() {
+function Terminal(props) {
     return (
-      <Prompt />
+      <Prompt directory={props.directory}/>
     );
 }
 

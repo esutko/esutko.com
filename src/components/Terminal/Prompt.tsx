@@ -1,6 +1,6 @@
-function Prompt() {
+function Prompt(props) {
     return (
-      <span> [user@esutko.com]$ </span>
+      <span> [user@esutko.com {props.directory}]$ </span>
     );
 }
 
