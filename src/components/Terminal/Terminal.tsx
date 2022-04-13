@@ -5,6 +5,7 @@ function Terminal(props) {
     return (
         <span>
             <Prompt directory={props.directory}/>
+            {props.input}
             <BlinkingCursor />
         </span>
     );

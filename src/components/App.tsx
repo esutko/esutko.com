@@ -3,7 +3,7 @@ import Terminal from './Terminal/Terminal.tsx';
 function App() {
   return (
     <div className="App">
-      <Terminal directory="/" />
+      <Terminal directory="/" input=""/>
     </div>
   );
 }
