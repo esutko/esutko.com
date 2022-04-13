@@ -1,9 +1,9 @@
-import logo from '../static/logo.svg';
+import Terminal from './Terminal/Terminal.tsx';
 
 function App() {
   return (
     <div className="App">
-      <h1> Hello, world! </h1>
+      <Terminal />
     </div>
   );
 }
