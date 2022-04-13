@@ -1,9 +1,12 @@
-import { isPropertySignature } from 'typescript';
 import Prompt from './Prompt.tsx';
+import BlinkingCursor from './BlinkingCursor.tsx';
 
 function Terminal(props) {
     return (
-      <Prompt directory={props.directory}/>
+        <span>
+            <Prompt directory={props.directory}/>
+            <BlinkingCursor />
+        </span>
     );
 }
 
