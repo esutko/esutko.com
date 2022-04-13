@@ -1,3 +1,7 @@
+.Prompt {
+    margin-right: .5em;
+}
+
 .BlinkingCursor {
     margin-left: -.5em;
 }
