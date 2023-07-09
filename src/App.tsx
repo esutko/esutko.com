@@ -1,9 +1,8 @@
-import Terminal from './Terminal/Terminal.tsx';
+import React from "react"
 
 function App() {
   return (
     <div className="App">
-      <Terminal directory="/" input=""/>
     </div>
   );
 }
